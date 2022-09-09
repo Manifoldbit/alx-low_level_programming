@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	srand(time(0));
+srand(time(0));
 
-	int n = rand();
+int n = rand();
 
 	if (n > 0)
 		printf("%d is positive\n", n);
