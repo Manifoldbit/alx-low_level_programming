@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-  * main - Entry point
-  *
-  * Return: Always (Success)
-  */
+ * main - Entry point
+ *
+ * Return: Always 0  (Success)
+ */
 int main(void)
 {
 	int c, i, k, j;
