@@ -1,23 +1,23 @@
 #include <stdio.h>
-#include <time.h>
-
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: 0 (Success)
  */
-
 int main(void)
-
 {
-	int n = 65;
+	int n;
+	int c = 97;
 
-	while (n <= 90)
+	for (n = 0; n <= 9; n++)
 	{
 		putchar(n);
-		n++;
+	}
+	while (c <= 102)
+	{
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
-
 	return (0);
 }
