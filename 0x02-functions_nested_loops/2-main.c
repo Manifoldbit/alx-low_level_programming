@@ -3,6 +3,8 @@
 /**
  * main - check the code 
  *
+ * Description: printing small letters 10times
+ *
  * Return: Always 0.
  *
  */
