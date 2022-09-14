@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - determines if the given character is alphabetic 
+ * _isalpha - determines if the given character is alphabetic
  * @c: the character to be evalted as alphabetic or not
  *
  * Return: 0 is the letter is alphabaetic otherwise 1
