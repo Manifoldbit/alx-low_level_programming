@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add - add two given integers
+ * add - add two given integers num1, num2
  *
  * Return: The sum of the two given integers
  */
