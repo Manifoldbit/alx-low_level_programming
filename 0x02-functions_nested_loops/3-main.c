@@ -1,22 +1,25 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * test_islower - Test the _islower function
  *
- * Return: Always 0.
- */
-int main(void)
+ * @c: Number to pass to _islower function
+ */ 
+int  test_islower(int c)
 {
-	int _islower(int c);
 
 	int alpha;
 
-	alpha = _islower('H');
-	_putchar(alpha + '0');
-	alpha = _islower('o');
-	_putchar(alpha + '0');
-	alpha = _Islower(108);
+	alpha = _islower(c);
 	_putchar(alpha + '0');
 	_putchar('\n');
-	return (0);
 }
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: ALways 0.
+ */
+int main(void)
+{
+	test_islower('o');
+	return (0);
