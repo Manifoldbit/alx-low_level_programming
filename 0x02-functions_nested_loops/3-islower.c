@@ -17,7 +17,7 @@ int _islower(int c)
 	{
 		if (c == alpha)
 		{
-			alpha++;
+			count++;
 			break;
 		}
 	}
