@@ -2,8 +2,6 @@
 
 /**
  * print_alphabet - printing small letters ten times
- *
- * Desccription: printing small letters ten times
  * 
  * Return: void
  */
