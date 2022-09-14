@@ -1,5 +1,5 @@
 #include "main.h"
-int add(int, int);
+#include <stdio.h>
 
 /**
  * main - check the code.
@@ -12,5 +12,5 @@ int main(void)
 
 	n = add(89, 9);
 	printf("%d\n", n);
-	return(0);
+	return (0);
 }
