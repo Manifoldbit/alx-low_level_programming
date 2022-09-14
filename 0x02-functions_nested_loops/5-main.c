@@ -10,7 +10,6 @@ int print_sign(int n);
 int main(void)
 {
 	int n;
-
 	n = print_sign(98);
 	_putchar(',');
 	_putchar(' ');
