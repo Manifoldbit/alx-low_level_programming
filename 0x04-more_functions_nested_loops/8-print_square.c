@@ -7,7 +7,7 @@
  */
 void print_square(int size)
 {
-	int length, int width;
+	int length, width;
 
 	if (size <= 0)
 		_putchar('\n');
