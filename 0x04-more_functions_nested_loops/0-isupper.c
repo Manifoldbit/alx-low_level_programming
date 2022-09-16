@@ -5,7 +5,7 @@
  * @c: the character to be determined if its upper or not
  * Return: 1 if uppercase or 0 if not
  */
-int _supper(int c)
+int _isupper(int c)
 {
 	int alpha;
 
