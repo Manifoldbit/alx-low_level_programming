@@ -1,9 +1,11 @@
+
+
 #include <stdio.h>
 
 /**
  * main - program that prints the number from 1 to 100
  * But for multiples of three print fizz
- * and for th multiples of five print buzzz
+ * and for th multiples of five print buzz
  * Return: 0
  */
 
@@ -26,4 +28,4 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
-}	
+}
