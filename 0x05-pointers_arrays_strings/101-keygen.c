@@ -11,7 +11,7 @@
 int main(void)
 {
 	int i, j, k, s;
-	char c[]; "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char c[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char p[58];
 
 	srand(time(NULL));
