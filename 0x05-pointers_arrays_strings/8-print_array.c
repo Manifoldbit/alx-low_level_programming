@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * print_arrray - print n elements of an array
+ * print_array - print n elements of an array
  * @n: number
  * @a: string
  * Return: void
