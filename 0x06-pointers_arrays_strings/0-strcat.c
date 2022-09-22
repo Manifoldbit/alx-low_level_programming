@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * _strcat - concat 2 string
@@ -15,7 +14,6 @@ while (*dest != '\0')
 {
 dest++;
 }
-
 
 while (*src != '\0')
 {
