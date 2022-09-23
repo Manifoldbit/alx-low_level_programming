@@ -5,20 +5,10 @@
  * @src: the source of the strings
  * @dest: the destination of the string
  * @m: the length of the int
- * Return: pointer to the resulting string dest 
+ * Return: void
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-int i;
-
-for (i = 0; i < n && *(src + i); i++)
-{
-*(dest + i) = *(src + i);
-}
-for (; i < n; i++)
-{
-*(dest + i) = '\0';
-}
+strncpy(dest, src , n);
 return (dest);
-
 }
