@@ -5,7 +5,7 @@
  * 	block of memory to fill
  * @b: input variable of char type
  * 	represents the character to fill s
- * @n: unsigned int variable 
+ * @n: unsigned int variable
  * 	to the number of byte to be filled
  *
  * Return: A pointer to the filled
