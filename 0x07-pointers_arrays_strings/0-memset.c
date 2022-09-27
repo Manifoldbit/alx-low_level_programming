@@ -1,5 +1,3 @@
-#nclude "main.h"
-
 /**
  * _memset - a function that feels memory with a constant byte
  * @s: input pointer to char type
