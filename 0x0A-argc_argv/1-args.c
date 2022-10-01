@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - the main entr of the program 
+ * main - the main entry of the program
  * @argc: the number of the arguments
  * @argv: the array of the arguments
  * Return: the integer
