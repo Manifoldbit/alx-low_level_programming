@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - the entry of the program
- * @argc - number of arguments passed
+ * @argc: number of arguments passed
  * @argv: the array of arguments
  * Return: 0 if success and i if error
  */
