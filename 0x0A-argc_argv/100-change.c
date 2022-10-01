@@ -7,7 +7,7 @@
  * Return: if no if arg = 1, 1 otherwise 0.
  */
 
-int man(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int cents, coins = 0;
 
