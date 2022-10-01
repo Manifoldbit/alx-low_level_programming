@@ -6,6 +6,7 @@
  * @argv: an array of pointers to the arguments
  * Return: if no if arg = 1, 1 otherwise 0.
  */
+
 int man(int argc, char *argv[])
 {
 	int cents, coins = 0;
@@ -18,7 +19,7 @@ int man(int argc, char *argv[])
 
 	cents = atoi(argv[1]);
 
-	while (cents  > 0)
+	while (cents > 0)
 	{
 		coins++;
 		if ((cents - 25) >= 0)
@@ -43,6 +44,7 @@ int man(int argc, char *argv[])
 		}
 		cents--;
 	}
+
 	printf("%d\n", coins);
 	return (0);
 }
