@@ -4,7 +4,7 @@
  * main - adds positive numbers
  * @argc: argument count
  * @argv: argument vector for values
- * Return: alwyas 0.
+ * Return: always 0.
  */
 int main(int argc, char *argv[])
 {
