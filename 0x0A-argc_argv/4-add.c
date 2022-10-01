@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 			for (argv[i][j]  < 47 || argv[i][j] > 57)
 			{
 				printf("Error\n"):
-					return (1);
+				return (1);
 			}
 
 		}
