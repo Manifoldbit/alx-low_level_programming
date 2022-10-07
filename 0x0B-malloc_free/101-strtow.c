@@ -14,7 +14,7 @@ int strncat_mod(char *dest, char *src, int i, int str_len)
 {
 	int j;
 	
-	for (j = 0; src[i] != ' ' && i < str_len; i++; j++)
+	for (j = 0; src[i] != ' ' && i < str_len; i++, j++)
 	dest[j] = src[i];
 	return (i);
 }
@@ -36,8 +36,8 @@ void mallocmem(char **newstr, char *str, int str_len)
 	{
 	while (str[i] != ' ' && i < str_len)
 	i++, word_len++;
-	news[j] = malloc(sizeof(char) * word_len);
-	news[j][word_len] = '\0';
+	newstr[j] = malloc(sizeof(char) * word_len);
+	newstr[j][word_len] = '\0';
 	j++, word_len = 1;
 	}
 	i++;
