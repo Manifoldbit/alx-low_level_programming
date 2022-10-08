@@ -51,7 +51,7 @@ void mallocmem(char **newstr, char *str, int str_len)
  */
 int word_count(char *str int str_len)
 {
-	int i = 0; words = 0;
+	int i = 0, words = 0;
 
 	while (i < str_len)
 	{
@@ -80,7 +80,7 @@ char **strtow(char *str)
 	int i = 0, j = 0, str_len = 0, words;
 
 	if (str == NULL || str[0] == '\0')
-	return (NUL);
+	return (NULL);
 	while (*(str + str_len) != '\0')
 	str_len++;
 	words = word_count(str, str_len);
