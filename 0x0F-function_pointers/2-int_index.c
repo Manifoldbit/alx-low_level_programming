@@ -2,13 +2,13 @@
 #include "function_pointers.h"
 
 /**
- * int_index - searches index for the given number 
- * @array: the array of numbers 
+ * int_index - searches index for the given number
+ * @array: the array of numbers
  * @size: the size of an array
  * @cmp: a function to compare the elements in array
  * Return: the index of the matched number
  */
-int int_index(int *array, int size, int(*cmp)(int))
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int count;
 
