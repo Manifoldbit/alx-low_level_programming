@@ -2,8 +2,8 @@
 #include "function_pointers.h"
 /**
  * array_iterator - prints the elements in the array
- * @array: an array 
- * @size: the size of the array 
+ * @array: an array
+ * @size: the size of the array
  * @action: a function
  * Return: void
  */
